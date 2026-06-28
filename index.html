@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estoque GS3 II FIAGRO · Field Asset</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #080807; }
+  * { box-sizing: border-box; }
+</style>
+</head>
+<body>
+
+<div style="min-height: 100vh; background: #080807; color: #ECE7D9; font-family: 'Hanken Grotesk', sans-serif; position: relative; overflow: hidden;">
+
+  <div style="position: absolute; top: -10%; left: 50%; transform: translateX(-50%); width: 900px; height: 900px; background: radial-gradient(circle, rgba(242,228,10,0.05) 0%, rgba(8,8,7,0) 60%); pointer-events: none;"></div>
+
+  <header style="display: flex; align-items: center; padding: 30px 48px 0; position: relative; z-index: 2;">
+    <!-- Logo text fallback caso a imagem não carregue -->
+<img src="data:image/png;base64,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" alt="field asset" style="height: 38px; width: auto; display: block;">
+  </header>
+
+  <main style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 28px 24px 64px; position: relative; z-index: 2;">
+    <div style="width: 100%; max-width: 620px;">
+
+      <p style="font-family: 'Hanken Grotesk', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: #6f6f68; margin: 0 0 16px;">Portal de Estoque · Field Asset Management</p>
+
+      <h1 style="font-family: 'Newsreader', serif; font-weight: 400; font-size: 26px; line-height: 1.1; letter-spacing: -0.01em; color: #ECE7D9; margin: 0 0 8px;">Estoque de títulos</h1>
+
+      <p style="font-family: 'Newsreader', serif; font-style: italic; font-size: 15px; line-height: 1.2; color: #F2E40A; margin: 0 0 14px;">GS3 II FIAGRO</p>
+
+      <p style="font-family: 'Hanken Grotesk', sans-serif; font-size: 13px; color: #8b8b82; margin: 0 0 30px; letter-spacing: 0.005em;">CNPJ 62.861.162/0001-71</p>
+
+      <div style="height: 1px; background: linear-gradient(90deg, rgba(236,231,217,0.14), rgba(236,231,217,0)); margin-bottom: 40px;"></div>
+
+      <div style="background: #0f0f0d; border: 1px solid rgba(236,231,217,0.08); border-radius: 18px; padding: 30px 32px;">
+        <p style="font-family: 'Hanken Grotesk', sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: #6f6f68; margin: 0 0 12px;">Como funciona</p>
+        <p style="font-family: 'Hanken Grotesk', sans-serif; font-size: 14px; line-height: 1.6; color: #c9c7bd; margin: 0; max-width: 48ch;">Clique no botão abaixo para solicitar o relatório de estoque atualizado do fundo. O arquivo CSV será enviado para o seu e-mail em instantes.</p>
+      </div>
+
+      <button id="btnSolicitar" onclick="solicitarEstoque()" style="width: 100%; margin-top: 28px; padding: 18px 24px; border: none; border-radius: 14px; background: #F2E40A; color: #080807; font-family: 'Hanken Grotesk', sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 0.005em; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 12px; transition: transform .18s ease, filter .18s ease; box-shadow: 0 8px 30px rgba(242,228,10,0.16);">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#080807" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-10 5L2 7"></path></svg>
+        Solicitar relatório por e-mail
+      </button>
+
+      <div id="status" style="display:none; margin-top: 20px; padding: 16px 20px; border-radius: 12px; font-family: 'Hanken Grotesk', sans-serif; font-size: 14px; line-height: 1.5;"></div>
+
+      <p style="font-family: 'Hanken Grotesk', sans-serif; font-size: 14px; color: #6f6f68; margin: 28px 0 0; text-align: center;">Suporte: <a href="mailto:tecnologia@fieldasset.com.br" style="color: #b9b7ad; text-decoration: none; border-bottom: 1px solid rgba(185,183,173,0.3); padding-bottom: 1px;">tecnologia@fieldasset.com.br</a></p>
+
+    </div>
+  </main>
+</div>
+
+<script>
+const FLOW_URL = 'https://defaultce0dabd7b4934b72a5a7f7bc6a276b.67.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/f9be50b35f1343e7adf20a15d7ce4a4d/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=otBa8NNkTMTStvc562EBgT_M6CeAs3SMMapLEP8Qci8';
+
+function showStatus(msg, bg, color, border) {
+  const el = document.getElementById('status');
+  el.style.display = 'block';
+  el.style.background = bg;
+  el.style.color = color;
+  el.style.border = '1px solid ' + border;
+  el.textContent = msg;
+}
+
+async function solicitarEstoque() {
+  const btn = document.getElementById('btnSolicitar');
+  btn.disabled = true;
+  btn.style.opacity = '0.5';
+  btn.style.cursor = 'not-allowed';
+  btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#080807" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Gerando relatório...';
+  showStatus('Aguarde — consultando a API e gerando o relatório...', '#1a1f0a', '#a8c46a', '#3a4a20');
+
+  try {
+    const res = await fetch(FLOW_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({})
+    });
+
+    if (res.status === 202 || res.ok) {
+      btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#080807" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Solicitação enviada — confira seu e-mail';
+      btn.style.opacity = '1';
+      showStatus('✓ Relatório enviado por e-mail — verifique sua caixa de entrada em instantes.', '#1a1f0a', '#F2E40A', '#4a5e10');
+    } else {
+      btn.innerHTML = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#080807" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-10 5L2 7"></path></svg> Solicitar relatório por e-mail';
+      btn.style.opacity = '1';
+      btn.style.cursor = 'pointer';
+      btn.disabled = false;
+      showStatus('Erro ao gerar relatório (status ' + res.status + '). Tente novamente ou contate tecnologia@fieldasset.com.br.', '#1f0a0a', '#e88080', '#4a2020');
+    }
+  } catch (err) {
+    btn.innerHTML = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#080807" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-10 5L2 7"></path></svg> Solicitar relatório por e-mail';
+    btn.style.opacity = '1';
+    btn.style.cursor = 'pointer';
+    btn.disabled = false;
+    showStatus('Erro de conexão. Tente novamente.', '#1f0a0a', '#e88080', '#4a2020');
+  }
+}
+</script>
+</body>
+</html>
